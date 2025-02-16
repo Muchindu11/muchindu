@@ -4,7 +4,7 @@
             margin: auto;
             line-height: 1.5em;
             font-family: Arial, sans-serif;
-            background-color: #cf8b8b;
+            background-color: #d6c4c4;
             padding: 20px;
             }
           #extraspecial { 
@@ -13,13 +13,21 @@
           .special {
             color: red;
             }
-          h2 {
+          h1,h2 {
           color: green;
+          text-align: center;
+          background-color: turquoise;
           }
           p {
           color: black;
+          text-align: center;
           }
-         h3 {
-          color:rgb(138, 80, 138) 
+         h3 { 
+          text-align: center;
+          background-color:rgb(138, 80, 138) 
+          }
+          img {
+          display: block;
+          margin: auto;
          }  
 
