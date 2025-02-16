@@ -1,4 +1,4 @@
-<style>   
+   
           body { 
             width: 700px;
             margin: auto;
@@ -15,5 +15,7 @@
           p {
           color: black;
           }
-          
-    </style>
+         h3 {
+          color:rgb(138, 80, 138) 
+         }  
+
