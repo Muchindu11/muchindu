@@ -12,10 +12,12 @@
             background-color: #d6c4c4;
             padding: 20px;
             }
-          #extraspecial { 
+          
+            #extraspecial { 
             color: purple;
             }
-          .special {
+          
+            .special {
             color: red;
             }
 
@@ -23,21 +25,26 @@
           color: green;
           text-align: center;
           }  
+
           h2 {
           color: green;
           text-align: center;
           background-color: turquoise;
           }
+
           p {
           color: black;
           text-align: center;
           }
+
          h3 { 
           text-align: left;
           background-color:rgb(53, 42, 197) 
           }
+
           img {
           display: block;
-          margin: auto;
+          margin: 50%;
+          height: auto;
          }  
 
