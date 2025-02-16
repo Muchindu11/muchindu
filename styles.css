@@ -2,9 +2,18 @@
           body { 
             width: 700px;
             margin: auto;
-          #extraspecial { color: purple;}
-          .special {color: red;}
-          h2 {color: green;}
-          p {color: black;}
+            }
+          #extraspecial { 
+            color: purple;
+            }
+          .special {
+            color: red;
+            }
+          h2 {
+          color: green;
+          }
+          p {
+          color: black;
+          }
           
     </style>
