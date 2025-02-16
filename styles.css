@@ -2,6 +2,10 @@
           body { 
             width: 700px;
             margin: auto;
+            line-height: 1.5em;
+            font-family: Arial, sans-serif;
+            background-color: #cf8b8b;
+            padding: 20px;
             }
           #extraspecial { 
             color: purple;
