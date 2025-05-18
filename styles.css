@@ -30,6 +30,7 @@
           color: green;
           text-align: center;
           background-color: turquoise;
+                    display: inline;
           }
 
           p {
