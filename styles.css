@@ -30,8 +30,8 @@
           color: green;
           text-align: center;
           background-color: turquoise;
-                    display: inline;
-                    border-radius: 30px;
+          display: inline;
+          border-radius: 30px;
           }
 
           p {
@@ -40,14 +40,14 @@
           }
 
          h3 { 
-          text-align: left;
-                   display: inline;
+          text-align: center;
+          display: inline;
           background-color:rgb(53, 42, 197) 
           }
 
           img {
-          height: 300px;
-                    width: 300px;
+          height: 200px;
+          width: 200px;
           border-radius: 50%;
          }  
 
