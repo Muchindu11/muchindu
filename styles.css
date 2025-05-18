@@ -31,6 +31,7 @@
           text-align: center;
           background-color: turquoise;
                     display: inline;
+                    border-radius: 15px;
           }
 
           p {
@@ -45,9 +46,8 @@
           }
 
           img {
-          display: block;
-          margin: auto;
           height: auto;
-          border-align: 50%;
+                    width: auto;
+          border-radius: 50%;
          }  
 
