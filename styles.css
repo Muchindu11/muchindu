@@ -49,5 +49,9 @@
           height: 200px;
           width: 200px;
           border-radius: 50%;
+          position: absolute;
+          left: 50%;
+          right: 50%;
+          transform: translate(-50%, -50%); 
          }  
 
