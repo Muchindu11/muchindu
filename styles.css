@@ -51,7 +51,7 @@
           height: 200px;
           width: 200px;
           border-radius: 50%;
-          img-align: center;
-          position: absolute;
+          img-align: top;
+          position: auto;
          }  
 
