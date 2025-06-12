@@ -1,17 +1,30 @@
+          * {
+            box-sizing: border-box;
+            }
+
           html {
-            background-color: #f0f0f0;
+            background-color: #f4f7f6; /* Lighter gray */
             scroll-behavior: smooth;
             }
           
           
           body { 
-            width: 700px;
-            margin: auto;
+            max-width: 1200px;
+            margin: 0 auto;
             line-height: 1.5em;
             position: relative;
-            font-family: Arial, sans-serif;
-            background-color: #d6c4c4;
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff; /* White */
             padding: 20px;
+            }
+
+          header {
+            text-align: center;
+            }
+
+          header p {
+            text-align: center;
+            margin-bottom: 20px;
             }
           
             #extraspecial { 
@@ -22,37 +35,92 @@
             color: red;
             }
 
+          .cv-contain {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 40px; /* Added padding */
+            }
+
+          section {
+            width: 100%;
+            margin-bottom: 20px; /* Add some space between sections */
+            }
+
           h1 {
-          color: green;
+          color: #333333; /* Dark gray */
           text-align: center;
+          margin-top: 0;
+          margin-bottom: 10px;
           }  
 
           h2 {
-          color: green;
-          text-align: center;
-          background-color: turquoise;
-          display: inline;
-          border-radius: 10px;
+          color: #444444; /* Slightly lighter dark gray */
+          text-align: left;
+          border-bottom: 2px solid #4CAF50; /* Green accent */
+          padding-bottom: 5px;
+          display: block;
+          border-radius: 0; /* Remove previous border-radius */
+          margin-top: 30px;
+          margin-bottom: 15px;
           }
 
           p {
           color: black;
-          text-align: center;
+          /* text-align: center; */ /* Removed */
           }
 
          h3 { 
-          text-align: center;
-          display: inline;
-          border-radius: 5px;
-          background-color:green;
+          text-align: left;
+          display: block;
+          border-radius: 0; /* Remove previous border-radius */
+          color: #555555; /* Darker gray for h3 */
+          margin-top: 20px;
+          margin-bottom: 10px;
           }
 
-          img {
-          height: 200px;
-          width: 200px;
-          border-radius: 50%;
-          img-align: top;
-          text-align: center;
-          position: center;
-         }  
+          #profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto; /* Or margin-left: auto; margin-right: auto; */
+          }
 
+          section ul, section ol {
+            padding-left: 20px;
+            /* list-style-position: inside; */ /* Effect can vary, check visually */
+          }
+
+          .contact ul {
+            list-style-type: none;
+            padding-left: 0;
+          }
+
+          .contact ul li {
+            margin-bottom: 8px;
+          }
+
+          a {
+            color: #4CAF50; /* Green links */
+            text-decoration: none;
+          }
+
+          a:hover {
+            text-decoration: underline;
+            color: #367c39; /* Darker green on hover */
+          }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px; /* Reduce padding on smaller screens */
+            }
+
+            /* Add other adjustments as needed, e.g., for font sizes */
+            h1 {
+                font-size: 2em; /* Example: slightly smaller h1 */
+            }
+            h2 {
+                font-size: 1.5em; /* Example: slightly smaller h2 */
+            }
+        }
